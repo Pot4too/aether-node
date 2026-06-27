@@ -1,2 +1,8 @@
+# PDF files not suited/needed to be tracked
 /docs
+
+# Just a simple structure and does not need be tracked
 sampleStructure.md
+
+.DS_Store
+.vscode/
