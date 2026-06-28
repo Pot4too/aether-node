@@ -1,3 +1,5 @@
 .pio
-sdkconfig
 sdkconfig.old
+sdkcinfig.ci
+
+build/
