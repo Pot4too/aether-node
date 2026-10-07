@@ -1,0 +1,12 @@
+* AP2112K-3.3 behavioral LDO (DC, startup, dropout, enable, load steps)
+.subckt AP2112K_33 VIN EN VSS VOUT PARAMS: Vset=3.3 Rdo=0.42 Gm=30 Ilim=0.8 Iq=55u
+Ren   EN VSS 3Meg
+* smooth enable, threshold between VIL=0.4 and VIH=1.5
+Ben   en_ok VSS V = 1/(1+exp(-(V(EN,VSS)-0.95)/0.05))
+* pass element: error-amp Gm, limited by Ilim and by headroom (dropout = Rdo*Iout)
+Bpass VIN VOUT I = max(0, min(min(Gm*(Vset*V(en_ok,VSS)-V(VOUT,VSS)), Ilim), max(V(VIN,VOUT),0)/Rdo))
+* quiescent and standby current from VIN
+Biq   VIN VSS I = Iq*V(en_ok,VSS) + 10n*(1-V(en_ok,VSS))
+* 60 ohm output discharge when disabled
+Bdis  VOUT VSS I = (1-V(en_ok,VSS))*V(VOUT,VSS)/60
+.ends

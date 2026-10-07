@@ -1,6 +1,6 @@
 #
 # Automatically generated file. DO NOT EDIT.
-# Espressif IoT Development Framework (ESP-IDF) 5.4.1 Project Configuration
+# Espressif IoT Development Framework (ESP-IDF) 5.4.0 Project Configuration
 #
 CONFIG_SOC_ADC_SUPPORTED=y
 CONFIG_SOC_DEDICATED_GPIO_SUPPORTED=y
@@ -659,7 +659,6 @@ CONFIG_BT_ALARM_MAX_NUM=50
 # Legacy ADC Driver Configuration
 #
 # CONFIG_ADC_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_ADC_SKIP_LEGACY_CONFLICT_CHECK is not set
 
 #
 # Legacy ADC Calibration Configuration
@@ -672,49 +671,42 @@ CONFIG_BT_ALARM_MAX_NUM=50
 # Legacy MCPWM Driver Configurations
 #
 # CONFIG_MCPWM_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_MCPWM_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy MCPWM Driver Configurations
 
 #
 # Legacy Timer Group Driver Configurations
 #
 # CONFIG_GPTIMER_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_GPTIMER_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy Timer Group Driver Configurations
 
 #
 # Legacy RMT Driver Configurations
 #
 # CONFIG_RMT_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_RMT_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy RMT Driver Configurations
 
 #
 # Legacy I2S Driver Configurations
 #
 # CONFIG_I2S_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_I2S_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy I2S Driver Configurations
 
 #
 # Legacy PCNT Driver Configurations
 #
 # CONFIG_PCNT_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_PCNT_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy PCNT Driver Configurations
 
 #
 # Legacy SDM Driver Configurations
 #
 # CONFIG_SDM_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_SDM_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy SDM Driver Configurations
 
 #
 # Legacy Temperature Sensor Driver Configurations
 #
 # CONFIG_TEMP_SENSOR_SUPPRESS_DEPRECATE_WARN is not set
-# CONFIG_TEMP_SENSOR_SKIP_LEGACY_CONFLICT_CHECK is not set
 # end of Legacy Temperature Sensor Driver Configurations
 # end of Driver Configurations
 
@@ -893,13 +885,6 @@ CONFIG_ESP_GDBSTUB_ENABLED=y
 CONFIG_ESP_GDBSTUB_SUPPORT_TASKS=y
 CONFIG_ESP_GDBSTUB_MAX_TASKS=32
 # end of GDB Stub
-
-#
-# ESP HID
-#
-CONFIG_ESPHID_TASK_SIZE_BT=2048
-CONFIG_ESPHID_TASK_SIZE_BLE=4096
-# end of ESP HID
 
 #
 # ESP HTTP client
@@ -1413,6 +1398,7 @@ CONFIG_HAL_SYSTIMER_USE_ROM_IMPL=y
 CONFIG_HAL_WDT_USE_ROM_IMPL=y
 CONFIG_HAL_SPI_MASTER_FUNC_IN_IRAM=y
 CONFIG_HAL_SPI_SLAVE_FUNC_IN_IRAM=y
+# CONFIG_HAL_ECDSA_GEN_SIG_CM is not set
 # end of Hardware Abstraction Layer (HAL) and Low Level (LL)
 
 #
@@ -1868,7 +1854,6 @@ CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT=y
 CONFIG_ESP_PROTOCOMM_SUPPORT_SECURITY_VERSION_0=y
 CONFIG_ESP_PROTOCOMM_SUPPORT_SECURITY_VERSION_1=y
 CONFIG_ESP_PROTOCOMM_SUPPORT_SECURITY_VERSION_2=y
-CONFIG_ESP_PROTOCOMM_SUPPORT_SECURITY_PATCH_VERSION=y
 # end of Protocomm
 
 #
@@ -2153,6 +2138,8 @@ CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM=32
 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED=y
 CONFIG_ESP32_WIFI_TX_BA_WIN=6
 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED=y
+CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED=y
+CONFIG_ESP32_WIFI_RX_BA_WIN=6
 CONFIG_ESP32_WIFI_RX_BA_WIN=6
 CONFIG_ESP32_WIFI_NVS_ENABLED=y
 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN=752

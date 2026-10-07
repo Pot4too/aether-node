@@ -1,8 +1,45 @@
 # PDF files not suited/needed to be tracked
+# This folder will serve as point for all aether node documentation, for now its .md and .pdf dont commit folder
 /docs
+
+# Ignoring bb_schematic for now, its not done so its empty
+/bb_schematic
 
 # Just a simple structure and does not need be tracked
 sampleStructure.md
 
+# KiCad
+*-backups/
+fp-info-cache
+~*.lck
+*.kicad_prl
+.history/
+*.bak
+*-bak
+*-rescue
+_autosave-*
+_restore_backup_*/
+# KiCad empty temp files (project name + 6 random chars)
+hardware/**/aether-node-v1??????
+bb_schematic/**/bb??????
+
+# Archives / exported snapshots (large, regenerate or keep in OneDrive)
+*.zip
+
+# Firmware build output (adjust to your toolchain)
+build/
+.pio/
+*.bin
+*.elf
+managed_components/
+sdkconfig.old
+
+# OS junk
 .DS_Store
+Thumbs.db
+
+# VS Code
 .vscode/
+
+# Editors
+.idea/

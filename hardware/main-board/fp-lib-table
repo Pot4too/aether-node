@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SOIC-8-1EP-3.9x4") (type "KiCad") (uri "${KIPRJMOD}/../libs/SOIC-8-1EP-3.9x4.pretty") (options "") (descr "Custom SOIC-8-1EP footprint with thermal vias"))
+)
