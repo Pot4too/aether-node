@@ -12598,7 +12598,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "XUNPU TS-1088-AR02016"
 			(at 30.734 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12619,7 +12619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 30.48 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
 			(at 30.48 127 0)
 			(hide yes)
 			(show_name no)
@@ -13313,7 +13313,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "XUNPU TS-1088-AR02016"
 			(at 137.414 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13334,7 +13334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13345,7 +13345,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
 			(at 137.16 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13392,7 +13392,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "XUNPU TS-1088-AR02016"
 			(at 106.934 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13413,7 +13413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13424,7 +13424,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
 			(at 106.68 123.19 0)
 			(hide yes)
 			(show_name no)
