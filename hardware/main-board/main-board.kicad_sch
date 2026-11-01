@@ -6409,7 +6409,7 @@
 		)
 		(uuid "35f4414c-364f-47b3-a330-37bfa3a374c1")
 	)
-	(text "2.4kOhm to set charge current to 500mA"
+	(text "2.4kOhm to set charge current to 500mA\n5.1kOhm to set charge current to 250mA"
 		(exclude_from_sim no)
 		(at 225.044 58.674 0)
 		(effects
