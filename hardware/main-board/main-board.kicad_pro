@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -81,7 +81,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|140150000|116635000|255f4d46-f406-4659-98a4-d110adab01ac|12253a97-07e9-4f5b-8b43-44fadf55db8b",
+          "its a model"
+        ],
+        [
+          "hole_clearance|140150000|116635000|a5a737cc-039c-49af-aaf6-1f297b3b86c3|12253a97-07e9-4f5b-8b43-44fadf55db8b",
+          "its a model"
+        ],
+        [
+          "hole_clearance|146250000|116635000|23008034-c71b-4ea2-8caa-5be0f727c6c1|9fcd2014-84d5-4639-b66f-245af613f6e0",
+          "its a model"
+        ],
+        [
+          "hole_clearance|146250000|116635000|79fd526a-f80d-4394-b352-2c0098682063|9fcd2014-84d5-4639-b66f-245af613f6e0",
+          "iits a model"
+        ],
+        [
+          "unconnected_items|124255000|86975000|F.Cu|4|c8581a4b-85ff-4dd6-8bb0-029a82da53e9|de06afb8-75ac-4e15-9f95-4b30793aeda2",
+          "interconnected in the button"
+        ],
+        [
+          "unconnected_items|148637500|97350000|F.Cu|4|88d487a4-76b6-4d3c-8e5e-1a8edd3854c3|6564eee3-757d-42ac-86c1-0c3696d1b2b9",
+          "already connecte to the second pad of the part"
+        ],
+        [
+          "unconnected_items|151015000|92725000|F.Cu|4|5175cf2b-d587-4e2e-b4ed-67e349bebd02|d6fe535d-9d48-4e57-bdc8-1e5da21712be",
+          "they are interconnected in the button"
+        ],
+        [
+          "unconnected_items|152735000|85015000|F.Cu|4|e8bbc96e-97ea-43f1-a141-7fe56fa3ba88|9b420b22-678a-468f-b898-a46a83b9748b",
+          "they are interconnected in the button"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -268,7 +301,7 @@
           "drill": 0.4
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.8,
           "drill": 0.5
         }
       ],
