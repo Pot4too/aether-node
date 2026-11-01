@@ -16275,88 +16275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 262.89 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7130c3d-de1e-470a-b858-bb4f97422437")
-		(property "Reference" "R20"
-			(at 265.43 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 265.43 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 261.112 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17526.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=R1dWBlIARlRWAwcARANWXwBSRAVWU1IFRAQPUQVQEgQxVlNeQFhbV1ZUQldfXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR1FbSQwSGg0%3D"
-			(at 262.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES 2.4kΩ ±1% 125mW 0805"
-			(at 262.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "196cee8d-e290-49ae-abd8-5cf33431f624")
-		)
-		(pin "1"
-			(uuid "23c745e1-deb6-4ad6-9ff8-e1c9a83177a9")
-		)
-		(instances
-			(project "main-board"
-				(path "/405b8d03-b381-4592-9199-252b151f0fbd"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 22.86 124.46 0)
 		(unit 1)
@@ -17218,6 +17136,88 @@
 			(project "main-board"
 				(path "/405b8d03-b381-4592-9199-252b151f0fbd"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09e3ef7-1a55-4628-9ac6-3a2573a43332")
+		(property "Reference" "R20"
+			(at 265.43 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 265.43 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 261.112 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C27834.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.4.xh&lcsc_vid=R1dWBlIARlRWAwcARANWXwBSRAVWU1IFRAQPUQVQEgQxVlNeQFhaU11XQ1ZdVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhYS"
+			(at 262.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 5.1kΩ ±1% 125mW 0805"
+			(at 262.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1be3d1d-3b80-4e45-b4b0-adbe6fe6de7e")
+		)
+		(pin "1"
+			(uuid "6c5ccbdf-24e4-40c8-9ec2-1fc6190ebda3")
+		)
+		(instances
+			(project "main-board"
+				(path "/405b8d03-b381-4592-9199-252b151f0fbd"
+					(reference "R20")
 					(unit 1)
 				)
 			)
