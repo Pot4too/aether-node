@@ -6720,7 +6720,13 @@
 		(at 160.02 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "193cc40d-9704-4231-9775-a2ae61323e9a")
+		(uuid "1ad0301d-5834-4557-9063-8a989a691c27")
+	)
+	(junction
+		(at 144.78 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "235f186c-1a0d-4260-b313-c95e19db0568")
 	)
 	(junction
 		(at 248.92 25.4)
@@ -6739,12 +6745,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26ce9877-224c-4f01-9482-73b7e083ec17")
-	)
-	(junction
-		(at 162.56 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3349b721-9678-464c-8086-e551d50aba3d")
 	)
 	(junction
 		(at 162.56 26.67)
@@ -6919,10 +6919,6 @@
 		(uuid "723e135a-fe79-4a34-b44c-9a7752220d33")
 	)
 	(no_connect
-		(at 154.94 95.25)
-		(uuid "76559f9e-d6cc-4007-86fd-3572dd4eeccb")
-	)
-	(no_connect
 		(at -45.72 153.67)
 		(uuid "b045862f-0fad-4af4-b9fe-0c187a2cc8ac")
 	)
@@ -7068,6 +7064,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1639f814-1c7c-4512-8c3e-822362b1a641")
+	)
+	(wire
+		(pts
 			(xy -85.09 238.76) (xy -78.74 238.76)
 		)
 		(stroke
@@ -7135,6 +7141,16 @@
 			(type default)
 		)
 		(uuid "20224649-6f1d-4248-9e16-81538eee5e4b")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b8a7b0-9187-445d-b9ff-92a10a186378")
 	)
 	(wire
 		(pts
@@ -7388,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 160.02 102.87)
+			(xy 160.02 101.6) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7398,13 +7414,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 92.71)
+			(xy 160.02 90.17) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b78cd26-8840-4038-8acf-531d33fb0c91")
+		(uuid "3b392f05-9804-4517-8358-e556f53805ee")
 	)
 	(wire
 		(pts
@@ -7568,16 +7584,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 162.56 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd8d9b6-be25-4ef9-9fc3-6952b033ac26")
-	)
-	(wire
-		(pts
 			(xy -85.09 223.52) (xy -78.74 223.52)
 		)
 		(stroke
@@ -7668,16 +7674,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 160.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "586e7c62-6108-40b6-9a0d-fad9a85a9124")
-	)
-	(wire
-		(pts
 			(xy 132.08 34.29) (xy 138.43 34.29)
 		)
 		(stroke
@@ -7745,6 +7741,16 @@
 			(type default)
 		)
 		(uuid "60ceb92c-4a3c-432a-9148-f08737d8a7ec")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6105e9a2-e90a-491b-9df9-514d92884d32")
 	)
 	(wire
 		(pts
@@ -7948,16 +7954,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78bf0913-521a-479e-918a-b5765be0e939")
-	)
-	(wire
-		(pts
 			(xy 140.97 133.35) (xy 144.78 133.35)
 		)
 		(stroke
@@ -7975,6 +7971,16 @@
 			(type default)
 		)
 		(uuid "7f1d9cd8-2d7b-4d1a-9d05-af0654a52e83")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e7cba8-557b-4940-a0ea-430f2772ff7f")
 	)
 	(wire
 		(pts
@@ -8288,6 +8294,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a201b786-3082-4202-9025-250a10720b07")
+	)
+	(wire
+		(pts
 			(xy 246.38 55.88) (xy 248.92 55.88)
 		)
 		(stroke
@@ -8438,16 +8454,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf67685-fb7a-4cc0-bfda-0cefd823b20f")
-	)
-	(wire
-		(pts
 			(xy 39.37 127) (xy 41.91 127)
 		)
 		(stroke
@@ -8458,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 162.56 90.17)
+			(xy 160.02 90.17) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8708,6 +8714,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf443929-2eb7-4283-93f5-19d02c202650")
+	)
+	(wire
+		(pts
 			(xy 227.33 34.29) (xy 227.33 41.91)
 		)
 		(stroke
@@ -8755,6 +8771,16 @@
 			(type default)
 		)
 		(uuid "d44150e2-57d0-45e6-b62a-af142cebe500")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48227af-205f-46f4-8811-d5b970507af6")
 	)
 	(wire
 		(pts
@@ -8875,16 +8901,6 @@
 			(type default)
 		)
 		(uuid "e2dc58f9-4c27-4290-b514-b7f8df47a18d")
-	)
-	(wire
-		(pts
-			(xy 162.56 90.17) (xy 165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3817c4d-752c-4fc7-bb8d-d6930866db36")
 	)
 	(wire
 		(pts
@@ -9015,6 +9031,16 @@
 			(type default)
 		)
 		(uuid "f9e67f14-3c50-46ef-a9a5-4704e1c424a1")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa11e7b5-bb57-43b9-9e95-7b24cb061125")
 	)
 	(wire
 		(pts
@@ -9724,7 +9750,7 @@
 		(uuid "f70128a4-985f-4318-91c2-e72b6ca5731d")
 	)
 	(label "LDO_IN"
-		(at 137.16 92.71 0)
+		(at 135.89 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10215,7 +10241,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 96.52 0)
+		(at 160.02 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10226,7 +10252,7 @@
 		(fields_autoplaced yes)
 		(uuid "09133f63-50cd-4185-a5f5-deadfa66719e")
 		(property "Reference" "C4"
-			(at 163.83 95.2499 0)
+			(at 163.83 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10237,7 +10263,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 163.83 97.7899 0)
+			(at 163.83 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10248,7 +10274,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 160.9852 100.33 0)
+			(at 160.9852 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10259,7 +10285,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1848.pdf?spm=wm.sxq.inf.ggs___wm.ddx.2.xqy&lcsc_vid=RVcIVFNeT1ZeAlJeTlALUl0DR1cKVAUDFFYKUgdWQlUxVlNeQFlXX1ZXQVlbVzsOAxUeFF5JWBEPFBcWGBMaSQgFBAJABAsLWA%3D%3D"
-			(at 160.02 96.52 0)
+			(at 160.02 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10270,7 +10296,7 @@
 			)
 		)
 		(property "Description" "Samsung Electro-Mechanics CL31B105KBHNNNE"
-			(at 160.02 96.52 0)
+			(at 160.02 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,6 +11636,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25eb81b7-3fcc-4728-af12-bb676b6b8e60")
+		(property "Reference" "#PWR052"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a28679c4-e2f5-4f9d-b06b-99a967bf005d")
+		)
+		(instances
+			(project "main-board"
+				(path "/405b8d03-b381-4592-9199-252b151f0fbd"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 182.88 96.52 0)
 		(unit 1)
@@ -12598,7 +12702,7 @@
 				)
 			)
 		)
-		(property "Value" "XUNPU TS-1088-AR02016"
+		(property "Value" "C&K PTS815SJM250SMTR LFS"
 			(at 30.734 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12608,7 +12712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 30.48 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12619,7 +12723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts815-series-datasheet?assetguid=1c4ee7c5-01fd-4370-a5cc-03ec62685e73"
 			(at 30.48 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12734,7 @@
 				)
 			)
 		)
-		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
+		(property "Description" "Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads"
 			(at 30.48 127 0)
 			(hide yes)
 			(show_name no)
@@ -12813,7 +12917,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 149.86 92.71 0)
+		(at 152.4 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12821,10 +12925,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49b9fc49-2630-43e1-9ad6-afedcba5a347")
 		(property "Reference" "SW1"
-			(at 149.86 83.82 0)
+			(at 153.924 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12833,8 +12936,9 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 149.86 86.36 0)
+		(property "Value" "C&K PCM12SMTR"
+			(at 144.78 92.71 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12844,7 +12948,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 149.86 92.71 0)
+			(at 152.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,8 +12958,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C963206.pdf"
-			(at 149.86 100.33 0)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-pcm-series-datasheet?assetguid=d2f6a96c-7a9a-4c4e-a5aa-4fe3075dffe5"
+			(at 152.4 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,8 +12969,8 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH SLIDE SPDT SMD,6.6x1.4mm"
-			(at 149.86 92.71 0)
+		(property "Description" "Slide Switches 0.3A SPDT ON-ON"
+			(at 152.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13313,7 +13417,7 @@
 				)
 			)
 		)
-		(property "Value" "XUNPU TS-1088-AR02016"
+		(property "Value" "C&K PTS815SJM250SMTR LFS"
 			(at 137.414 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13323,7 +13427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts815-series-datasheet?assetguid=1c4ee7c5-01fd-4370-a5cc-03ec62685e73"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13345,7 +13449,7 @@
 				)
 			)
 		)
-		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
+		(property "Description" "Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads"
 			(at 137.16 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13392,7 +13496,7 @@
 				)
 			)
 		)
-		(property "Value" "XUNPU TS-1088-AR02016"
+		(property "Value" "C&K PTS815SJM250SMTR LFS"
 			(at 106.934 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13402,7 +13506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13413,7 +13517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts815-series-datasheet?assetguid=1c4ee7c5-01fd-4370-a5cc-03ec62685e73"
 			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13424,7 +13528,7 @@
 				)
 			)
 		)
-		(property "Description" "C720477 - SWITCH TACTILE SPST 160gf SMD"
+		(property "Description" "Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads"
 			(at 106.68 123.19 0)
 			(hide yes)
 			(show_name no)
