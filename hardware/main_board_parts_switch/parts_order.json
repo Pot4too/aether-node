@@ -1,0 +1,159 @@
+{
+  "boards": 2,
+  "parts": {
+    "TP4056-42-ESOP8": {
+      "include": true,
+      "buf": 4,
+      "min": 1,
+      "src": "r0"
+    },
+    "USBLC6-2SC6-FS": {
+      "buf": 3,
+      "min": 1,
+      "src": "s1"
+    },
+    "AP2112K-3.3TRG1": {
+      "buf": 5,
+      "min": 1,
+      "src": "s1"
+    },
+    "ESP32-C6-MINI-1-N4": {
+      "buf": 1,
+      "min": 1,
+      "src": "s1"
+    },
+    "08055C104KAZ2A": {
+      "include": false
+    },
+    "CL31B105KBHNNNE": {
+      "include": false
+    },
+    "DMG2305UXQ-7": {
+      "buf": 5,
+      "min": 1,
+      "src": "s1"
+    },
+    "MK-12C02-G020": {
+      "buf": 1,
+      "min": 1,
+      "src": "s1"
+    },
+    "TS-1088-AR02016": {
+      "min": 10,
+      "src": "r2"
+    },
+    "CL31B106KBHNNNE": {
+      "include": false
+    },
+    "CL21A226KOQNNNE": {
+      "buf": 5,
+      "min": 10,
+      "src": "s1"
+    },
+    "XL-2012UGC": {
+      "buf": 10,
+      "min": 5,
+      "src": "s2"
+    },
+    "XL-2012SURC": {
+      "buf": 10,
+      "min": 5,
+      "src": "s2"
+    },
+    "SMF5.0CA": {
+      "buf": 3,
+      "min": 1,
+      "src": "s1"
+    },
+    "MBR120LSFT1G": {
+      "buf": 5,
+      "min": 10,
+      "src": "s1"
+    },
+    "NSMD150/16": {
+      "buf": 5,
+      "min": 10,
+      "src": "s2"
+    },
+    "SPH-001T-P0.5S": {
+      "include": true,
+      "need": 40,
+      "min": 1,
+      "src": "s1"
+    },
+    "SPH-002T-P0.5S": {
+      "include": true,
+      "need": 40,
+      "src": "s1"
+    },
+    "PHR-4": {
+      "include": true,
+      "need": 10,
+      "src": "s1"
+    },
+    "B4B-PH-K-S(LF)(SN)": {
+      "buf": 10,
+      "src": "s1"
+    },
+    "SM02B-SRSS-TB(LF)(SN)": {
+      "buf": 10,
+      "src": "s1"
+    },
+    "FRC0805F22R0TS": {
+      "include": false
+    },
+    "FRC0805F33R0TS": {
+      "include": false
+    },
+    "FRC0805F1500TS": {
+      "include": false
+    },
+    "0805W8F3300T5E": {
+      "include": false
+    },
+    "FRC0805F1002TS": {
+      "include": false
+    },
+    "RC0805FR-07220RL": {
+      "include": false
+    },
+    "FRL2512JR400TS": {
+      "include": true,
+      "buf": 4,
+      "min": 10,
+      "src": "s2"
+    },
+    "FRC0805F4701TS": {
+      "include": false,
+      "src": "s1"
+    },
+    "PZ254V-11-04P": {
+      "include": false
+    },
+    "SMD100-16V": {
+      "include": true,
+      "need": 0,
+      "buf": 1,
+      "min": 10,
+      "src": "s2"
+    },
+    "0805W8F5101T5E": {
+      "buf": 10,
+      "min": 10,
+      "src": "s1"
+    },
+    "0805W8F2401T5E": {
+      "include": true,
+      "buf": 10,
+      "min": 10,
+      "src": "s1"
+    },
+    "HGC1210R5107M160NSVK": {
+      "include": false,
+      "src": "s2"
+    },
+    "USB4105-xx-A": {
+      "include": false
+    }
+  }
+}

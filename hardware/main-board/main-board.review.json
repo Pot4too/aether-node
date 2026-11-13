@@ -1,0 +1,122 @@
+{
+  "C3,C6,C9,C10": {
+    "checked": true,
+    "notes": "already have but order more, ordered 20 more"
+  },
+  "C4,C5,C11": {
+    "checked": true,
+    "notes": "already have but order more, ordered 20more"
+  },
+  "C7,C12": {
+    "checked": true,
+    "notes": ""
+  },
+  "C8": {
+    "checked": true,
+    "notes": ""
+  },
+  "D12": {
+    "checked": true,
+    "notes": ""
+  },
+  "D5,D6,D9,D10": {
+    "checked": true,
+    "notes": ""
+  },
+  "D7,D11": {
+    "checked": true,
+    "notes": ""
+  },
+  "D8": {
+    "checked": true,
+    "notes": ""
+  },
+  "F1": {
+    "checked": true,
+    "notes": ""
+  },
+  "J1,J2": {
+    "checked": true,
+    "notes": ""
+  },
+  "J5": {
+    "checked": true,
+    "notes": "already have "
+  },
+  "J6": {
+    "checked": true,
+    "notes": ""
+  },
+  "Q1": {
+    "checked": true,
+    "notes": "ordered DIODES DMG2305UXQ-7, Q stands for automotive but it has same parameteres and package"
+  },
+  "R11,R12": {
+    "checked": true,
+    "notes": ""
+  },
+  "R13,R14": {
+    "checked": true,
+    "notes": ""
+  },
+  "R15": {
+    "checked": true,
+    "notes": ""
+  },
+  "R16,R17,R18": {
+    "checked": true,
+    "notes": ""
+  },
+  "R19": {
+    "checked": true,
+    "notes": ""
+  },
+  "R20": {
+    "checked": true,
+    "notes": ""
+  },
+  "R21,R22": {
+    "checked": true,
+    "notes": ""
+  },
+  "R6,R7": {
+    "checked": true,
+    "notes": ""
+  },
+  "R8": {
+    "checked": true,
+    "notes": ""
+  },
+  "R9,R10": {
+    "checked": true,
+    "notes": ""
+  },
+  "SW1": {
+    "checked": true,
+    "notes": ""
+  },
+  "SW5,SW7,SW8": {
+    "checked": true,
+    "notes": "C720477 check if this is a correct one"
+  },
+  "TP1,TP2,TP3,TP5": {
+    "checked": true,
+    "notes": "Not ordering"
+  },
+  "U1": {
+    "checked": true,
+    "notes": "2pcs hope its enough :)"
+  },
+  "U2": {
+    "checked": true,
+    "notes": ""
+  },
+  "U3": {
+    "checked": true,
+    "notes": ""
+  },
+  "U4": {
+    "checked": true,
+    "notes": ""
+  }
+}

@@ -1,0 +1,1005 @@
+# Parts crossmatch  (all prices in EUR)
+# Key = manufacturer part number (MPN).
+# Each part lists the sites where it can be bought (exact match), plus
+# replacement parts that are NOT identical, with a note on what differs.
+# Unused slots are left empty ("" / null).
+#
+#   manufacturer, description, package : part info
+#   designators : (optional) reference designators on the board, e.g. [C1, C2]
+#   sites       : exact-match listings
+#       - site  : supplier name (LCSC, Mouser, Farnell, ...)
+#         url   : product link
+#         price : unit price
+#   replacements: alternatives that are not an exact match
+#       - mpn         : replacement part number
+#         description : what is different compared to the original
+#         site        : where to buy it
+#         url         : product link
+#         price       : unit price
+parts:
+
+  "TP4056-42-ESOP8":
+    manufacturer: "TOP POWER ASIC"
+    description: "Lithium Battery 1A ESOP-8 Battery Management RoHS"
+    package: "ESOP-8"
+    designators:
+      - "U4"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C16581.html"
+        price: 0.86
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: "Missing the exposed heatpad underneath (SOP-8 instead of ESOP-8)"
+        site: "TECHFUN"
+        url: "https://techfun.sk/produkt/nabijaci-modul-tp4056-samostatny-cip-sop8-1a/"
+        price: 0.19
+
+  "USBLC6-2SC6-FS":
+    manufacturer: "FUXINSEMI"
+    description: "10.4VC Clamp 8A Ipp ESD DIODE SOT-23-6L"
+    package: "SOT-23-6L"
+    designators:
+      - "U2"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C6807798.html"
+        price: 0.05
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
+        price: 0.51
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "AP2112K-3.3TRG1":
+    manufacturer: "DIODES"
+    description: "3.3V Positive Fixed SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+    package: "SOT-25-5"
+    designators:
+      - "U3"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C51118.html"
+        price: 0.17
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/Diodes-Incorporated/AP2112K-3.3TRG1?qs=x6A8l6qLYDDPYHosCdzh%2FA%3D%3D"
+        price: 0.23
+      - site: "Farnell"
+        url: "https://sk.farnell.com/diodes-inc/ap2112k-3-3trg1/ldo-fixed-3-3v-0-6a-sot-25-85deg/dp/3257429"
+        price: 0.255
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "ESP32-C6-MINI-1-N4":
+    manufacturer: "ESPRESSIF"
+    description: "2.4GHz ESP32-C6FH4 On-board PCB Antenna -106dBm SMD-53P RF Transceiver Modules and Modems RoHS"
+    package: "SMD-53P"
+    designators:
+      - "U1"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C5736265.html"
+        price: 3.8
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/Espressif-Systems/ESP32-C6-MINI-1-N4?qs=sGAEpiMZZMu3sxpa5v1qrtlNcqOqq083KD5CYGQmJDU%3D"
+        price: 3.9
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "08055C104KAZ2A":
+    manufacturer: "Kyocera AVX"
+    description: "100nF ±10% 50V Ceramic Capacitor X7R 0805"
+    package: "0805"
+    designators:
+      - "C3"
+      - "C6"
+      - "C9"
+      - "C10"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C6641151.html"
+        price: 0.03
+      - site: "Farnell"
+        url: "https://sk.farnell.com/kemet/c0805c104j5ractu/cap-0-1-f-50v-5-x7r-0805/dp/1414663"
+        price: 0.085
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
+        price: 0.095
+      - site: "On site"
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "CL31B105KBHNNNE":
+    manufacturer: "Samsung Electro-Mechanics"
+    description: "1uF ±10% 50V Ceramic Capacitor X7R 1206"
+    package: "1206"
+    designators:
+      - "C4"
+      - "C5"
+      - "C11"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C1848.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: "on Site"
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "DMG2305UXQ-7":
+    manufacturer: "DIODES"
+    description: "P-Channel 20V 1.4W Surface Mount SOT-23"
+    package: "SOT-23"
+    designators:
+      - "Q1"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C508197.html"
+        price: 0.39
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/Diodes-Incorporated/DMG2305UXQ-7?qs=60RJRzIpcl%2FUiAojHt1c9w%3D%3D"
+        price: 0.39
+      - site: "Farnell"
+        url: "https://sk.farnell.com/diodes-inc/dmg2305uxq-7/mosfet-p-ch-20v-4-2a-sot-23/dp/3943480"
+        price: 0.52
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "MK-12C02-G020":
+    manufacturer: "G-Switch"
+    description: "Slide Switch SPDT 1A @ 6V Surface Mount, Right Angle Rectangular Columnar 6.6mm"
+    package: "SMD,6.6x1.4mm"
+    designators:
+      - "SW1"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C963206.html"
+        price: 0.12
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/CK/PCM12SMTR?qs=mfFuHy8STfL3qrPSfCHA7w%3D%3D"
+        price: 1.1
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: "Its not an SMD mount but a Panel mount - its too big also, only option is to mount it on box and solder 2 wires to it "
+        site: "Farnell"
+        url: "https://sk.farnell.com/nidec-copal/mfs201n-z/slide-switch-dpdt-1a-125vac-panel/dp/2854848"
+        price: 1.26
+
+  "TS-1088-AR02016":
+    manufacturer: "XUNPU"
+    description: "Tactile Switch SPST 160gf 2mm SMD (SMT) Tab 4mm x 3mm Surface Mount"
+    package: "SMD,4x3mm"
+    designators:
+      - "SW5"
+      - "SW7"
+      - "SW8"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C720477.html"
+        price: 0.05
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: "Bit different dimmensions"
+        site: "Farnell"
+        url: "https://sk.farnell.com/c-k-components/kmr621ng-lfs/tactile-sw-spst-no-0-05a-32vdc/dp/2845721"
+        price: 0.7
+      - mpn: ""
+        description: "Bit different dimmensions"
+        site: "Farnell"
+        url: "https://sk.farnell.com/aratas/b3u-1000p/switch-spst-no-0-05a-12v-smd/dp/1333652"
+        price: 1.07
+      - mpn: "PTS815SJM250SMTR LFS"
+        description: "Different footprint but same size (t has 4pin layout)"
+        site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/CK/PTS815SJM250SMTR-LFS?qs=%252BXxaIXUDbq36ZRyjgJDK1Q%3D%3D"
+        price: 0.172
+
+  "CL31B106KBHNNNE":
+    manufacturer: "Samsung Electro-Mechanics"
+    description: "10uF ±10% 50V Ceramic Capacitor X7R 1206"
+    package: "1206"
+    designators:
+      - "C7"
+      - "C12"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C89632.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: "On site"
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "CL21A226KOQNNNE":
+    manufacturer: "Samsung Electro-Mechanics"
+    description: "22uF ±10% 16V Ceramic Capacitor X5R 0805"
+    package: "0805"
+    designators:
+      - "C8"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C296720.html"
+        price: 0.107
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Samsung-Electro-Mechanics/CL21A226KOQNNNE?qs=sGAEpiMZZMt7gvpyg0xT8tCg5CynaY7Nnk0b43jfUzwZ7Sz4MoFsYA%3D%3D"
+        price: 0.383
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: "we have 22u but 1206 size and 16V"
+        site: "on site"
+        url: ""
+        price: 0.0
+
+  "XL-2012UGC":
+    manufacturer: "XINGLIGHT"
+    description: "Emerald Green 525nm LED Indication - Discrete 3.2V 0805"
+    package: "0805"
+    designators:
+      - "D5"
+      - "D6"
+      - "D9"
+      - "D10"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C965815.html"
+        price: 0.006
+      - site: "Farnell"
+        url: "https://sk.farnell.com/wurth-elektronik/150080vs75000/led-0805-b-green-40mcd-570nm/dp/2322081"
+        price: 0.17
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%252B0ug%3D%3D"
+        price: 0.163
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "XL-2012SURC":
+    manufacturer: "XINGLIGHT"
+    description: "Red 620nm LED Indication - Discrete 2.3V 0805"
+    package: "0805"
+    designators:
+      - "D7"
+      - "D11"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C965812.html"
+        price: 0.007
+      - site: "Farnell"
+        url: "https://sk.farnell.com/wurth-elektronik/150080rs75000/led-0805-red-150mcd-625nm/dp/2322077"
+        price: 0.17
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
+        price: 0.163
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SMF5.0CA":
+    manufacturer: "FUXINSEMI"
+    description: "9.2VC Clamp 21.7A Ipp TVS DIODE SOD-123"
+    package: "SOD-123"
+    designators:
+      - "D8"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C908214.html"
+        price: 0.023
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/Eaton-Electronics/SMF5.0CA?qs=Tc%252BHE9vUsnuFGg2auYmj0A%3D%3D"
+        price: 0.38
+      - site: "Farnell"
+        url: "https://sk.farnell.com/littelfuse/smf5-0ca/tvs-diode-bidir-5v-sod-123fl/dp/3929995"
+        price: 0.582
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "MBR120LSFT1G":
+    manufacturer: "onsemi"
+    description: "Diode 20V 1A Surface Mount SOD-123FL"
+    package: "SOD-123FL"
+    designators:
+      - "D12"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C891416.html"
+        price: 0.15
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/onsemi/MBR120LSFT1G?qs=3JMERSakebpX1t8rvRkaxg%3D%3D"
+        price: 0.526
+      - site: "Farnell"
+        url: "https://sk.farnell.com/search?st=MBR120LSFT1G"
+        price: 0.5
+    replacements:
+      - mpn: "On site"
+        description: "MBRA120 1A 20V"
+        site: ""
+        url: ""
+        price: null
+
+  "NSMD150/16":
+    manufacturer: "KUU"
+    description: "Polymeric PTC Resettable Fuse 16V 1.5A Surface Mount 1206"
+    package: "1206"
+    designators:
+      - "F1"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C5338320.html"
+        price: 0.07
+      - site: "Farnell"
+        url: "https://sk.farnell.com/littelfuse/rf1358-000/ptc-resettable-fuse-6vdc-1206/dp/3995210"
+        price: 0.343
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Bourns/MF-NSMF150-2?qs=sGAEpiMZZMsgjL4JkW1EEfXv%252B3lLY36d1CtxYwYGevg%3D"
+        price: 0.255
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SPH-001T-P0.5S":
+    manufacturer: "JST"
+    description: "22~26 Tin Phosphor bronze Rectangular Connector Contacts"
+    package: "-"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C495193.html"
+        price: null
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/JST-Commercial/SPH-001T-P0.5S?qs=QpmGXVUTftHIZO%2FImfpsLA%3D%3D"
+        price: 0.029
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SPH-002T-P0.5S":
+    manufacturer: "JST"
+    description: "Connector Terminal PH Tin 24~30 AWG Crimp"
+    package: "-"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C111515.html"
+        price: null
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/JST-Commercial/SPH-002T-P0.5S?qs=QpmGXVUTftFJKuym4Sxf3w%3D%3D"
+        price: 0.03
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "PHR-4":
+    manufacturer: "JST"
+    description: "Connector Housing 4 Position 2mm Pitch Single Row PH Series PA66 -25℃~+85℃"
+    package: "P=2mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C111514.html"
+        price: null
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/JST-Commercial/PHR-4?qs=QpmGXVUTftHJCiJnsWr8XA%3D%3D"
+        price: 0.056
+      - site: "Farnell"
+        url: "https://sk.farnell.com/jst-japan-solderless-terminals/phr-4/housing-4way-2mm/dp/3616204"
+        price: 0.055
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "B4B-PH-K-S(LF)(SN)":
+    manufacturer: "JST"
+    description: "Connector Header 4 position 2mm Pitch 2A Through Hole -25℃~+85℃"
+    package: "Through Hole,P=2mm"
+    designators:
+      - "J1"
+      - "J2"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C131334.html"
+        price: null
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/JST-Commercial/B4B-PH-K-SLFSN?qs=cdbOS8ANM9DXdpq6lW45vA%3D%3D"
+        price: 0.143
+      - site: "Farnell"
+        url: "https://sk.farnell.com/jst-japan-solderless-terminals/b4b-ph-k-s-lf-sn/header-top-entry-4way-2mm/dp/9492437"
+        price: 0.131
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SM02B-SRSS-TB(LF)(SN)":
+    manufacturer: "JST"
+    description: "Connector Header 2 position 1mm Pitch 1A Surface Mount, Right Angle -25℃~+85℃"
+    package: "SMD,P=1mm,Surface Mount,Right Angle"
+    designators:
+      - "J6"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C160402.html"
+        price: null
+      - site: "MOUSER"
+        url: "https://www.mouser.sk/en/ProductDetail/JST-Commercial/SM02B-SRSS-TBLFSN?qs=cdbOS8ANM9BWPfwllEYjZw%3D%3D"
+        price: 0.28
+      - site: "Farnell"
+        url: "https://sk.farnell.com/jst-japan-solderless-terminals/sm02b-srss-tb-lf-sn/header-r-a-2way/dp/1679117"
+        price: 0.39
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRC0805F22R0TS":
+    manufacturer: "FOJAN"
+    description: "22Ω ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R11"
+      - "R12"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2907244.html"
+        price: null
+      - site: "On site"
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "0805W8F5101T5E":
+    manufacturer: "UNI-ROYAL"
+    description: "5.1kΩ ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R9"
+      - "R10"
+      - "R20"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C27834.html"
+        price: null
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Kamaya/RMC1-10K5101FTP?qs=sGAEpiMZZMvdGkrng054t5G5FZafBFnRrjk0sGmgvoVYTizc%252BDhLDQ%3D%3D"
+        price: 0.026
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRC0805F33R0TS":
+    manufacturer: "FOJAN"
+    description: "33Ω ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R6"
+      - "R7"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2907258.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRC0805F1500TS":
+    manufacturer: "FOJAN"
+    description: "150Ω ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R8"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2933324.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "0805W8F3300T5E":
+    manufacturer: "UNI-ROYAL"
+    description: "330Ω ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R15"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C17630.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRC0805F1002TS":
+    manufacturer: "FOJAN"
+    description: "10kΩ ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R16"
+      - "R17"
+      - "R18"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2907219.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "RC0805FR-07220RL":
+    manufacturer: "YAGEO"
+    description: "220Ω 125mW 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
+    package: "0805"
+    designators:
+      - "R13"
+      - "R14"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C114519.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRL2512JR400TS":
+    manufacturer: "FOJAN"
+    description: "400mΩ ±5% 1W 2512 Thick Film Resistor"
+    package: "2512"
+    designators:
+      - "R19"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2960851.html"
+        price: null
+      - site: "on site"
+        url: "0.5ohm 2512 testlab"
+        price: null
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/YAGEO/PT2512FK-070R4L?qs=sGAEpiMZZMvdGkrng054t%252B16l8hKTDgaxLGeb2R1BNg%3D"
+        price: 0.275
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "0805W8F2401T5E":
+    manufacturer: "UNI-ROYAL"
+    description: "2.4kΩ ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C17526.html"
+        price: null
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/YAGEO/AC0805FR-7W2K4L?qs=sGAEpiMZZMvdGkrng054t4v35oYz4BJEWBnVKojgRKA8CO6jkys0dA%3D%3D"
+        price: 0.028
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "FRC0805F4701TS":
+    manufacturer: "FOJAN"
+    description: "4.7kΩ ±1% 125mW 0805 Thick Film Resistor"
+    package: "0805"
+    designators:
+      - "R21"
+      - "R22"
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2907264.html"
+        price: null
+      - site: "on site"
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "PZ254V-11-04P":
+    manufacturer: "XFCN"
+    description: "Pin Header 4 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
+    package: "Through Hole,P=2.54mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2691448.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SMD100-16V":
+    manufacturer: "TECHFUSE"
+    description: "Polymeric PTC Resettable Fuse 16V 1A Surface Mount 1206"
+    package: "1206"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C70082.html"
+        price: 0.045
+      - site: "Farnell"
+        url: "https://sk.farnell.com/multicomp-pro/mc36221/fuse-ptc-reset-smd-6v-1a/dp/1861192"
+        price: 0.127
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/Bourns/MF-NSMF110-2?qs=sGAEpiMZZMsgjL4JkW1EEb8X2MbS7ax6hv9C%2FALKNvQ%3D"
+        price: 0.249
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "HX PM2.54-1x7P ZC-Y":
+    manufacturer: "hanxia"
+    description: "Female Header 7 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
+    package: "Through Hole,P=2.54mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C22438157.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "PM254V-11-05-H85":
+    manufacturer: "XFCN"
+    description: "Female Header 5 Position 2.54mm Pitch Single Row Through Hole"
+    package: "Through Hole,P=2.54mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C541852.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "SS-12F44-G5":
+    manufacturer: "Korean Hroparts Elec"
+    description: "Slide Switch SPDT Through Hole Rectangular Columnar"
+    package: "Through Hole"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C136718.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "AP22815AWT-7":
+    manufacturer: "DIODES"
+    description: "1 3A High Side Switch TSOT-25 Power Distribution Switches, Load Drivers RoHS"
+    package: "TSOT-25"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2150007.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "HGC1210R5107M160NSVK":
+    manufacturer: "Chinocera"
+    description: "100uF ±20% 16V Ceramic Capacitor X5R 1210"
+    package: "1210"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C7432790.html"
+        price: null
+      - site: "on site"
+        url: "594d107x0025r2t"
+        price: null
+      - site: "Mouser"
+        url: "https://www.mouser.sk/en/ProductDetail/TAIYO-YUDEN/MSASE32MAB5107MPNA01?qs=tlsG%2FOw5FFhkQ2Ygv%252BVgrg%3D%3D"
+        price: 2.02
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "TS-6645HK":
+    manufacturer: "kangshen"
+    description: "12V Without Bracket 6mm Round Button Through Hole SPST 6mm 50mA 2.5N Through Hole Tactile Switches"
+    package: "Through Hole"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C47734501.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "2.54-1*4P":
+    manufacturer: "BOOMELE(Boom Precision Elec)"
+    description: "Female Header 4 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
+    package: "Through Hole,P=2.54mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C2718488.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "PH2.54-01-20PZD":
+    manufacturer: "XUNPU"
+    description: "Pin Header 20 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
+    package: "Through Hole,P=2.54mm"
+    designators: []
+    sites:
+      - site: "LCSC"
+        url: "https://www.lcsc.com/product-detail/C7501591.html"
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null
+
+  "USB4105-xx-A":
+    manufacturer: "GCT"
+    description: "USB Type-C Receptacle USB2.0 16P, top mount horizontal (price/supplier not yet researched)"
+    package: "USB_C_Receptacle_GCT_USB4105-xx-A_16P"
+    designators:
+      - "J5"
+    sites:
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+      - site: ""
+        url: ""
+        price: null
+    replacements:
+      - mpn: ""
+        description: ""
+        site: ""
+        url: ""
+        price: null

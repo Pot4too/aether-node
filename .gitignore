@@ -36,10 +36,25 @@ sdkconfig.old
 
 # OS junk
 .DS_Store
+**/.DS_Store
 Thumbs.db
 
 # VS Code
 .vscode/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+.env
 
 # Editors
 .idea/
